@@ -41,7 +41,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r1. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -86,8 +86,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r2. Legacy structure-builder answer(s): CH3Cl, CH3Br. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r2. Legacy structure-builder answer(s): CH3Cl, CH3Br. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkane",
+    "mapTo": "Haloalkane"
   },
   {
     "id": "legacy-r3",
@@ -130,7 +132,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r3. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -176,8 +178,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r4. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r4. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkene",
+    "mapTo": "Alkane"
   },
   {
     "id": "legacy-r5",
@@ -220,8 +224,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r5. Legacy structure-builder answer(s): CH2BrCH2Br, BrCH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r5. Legacy structure-builder answer(s): CH2BrCH2Br, BrCH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkene",
+    "mapTo": "Haloalkane"
   },
   {
     "id": "legacy-r6",
@@ -264,8 +270,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r6. Legacy structure-builder answer(s): CH3CHBrCH3. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r6. Legacy structure-builder answer(s): CH3CHBrCH3. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkene",
+    "mapTo": "Haloalkane"
   },
   {
     "id": "legacy-r7",
@@ -308,8 +316,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r7. Legacy structure-builder answer(s): CH3CH2OH, C2H5OH. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r7. Legacy structure-builder answer(s): CH3CH2OH, C2H5OH. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkene",
+    "mapTo": "Alcohol"
   },
   {
     "id": "legacy-r8",
@@ -350,8 +360,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r8. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r8. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Alkene",
+    "mapTo": "Polymer"
   },
   {
     "id": "legacy-r9",
@@ -395,8 +407,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r9. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r9. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alkyne",
+    "mapTo": "Alkane"
   },
   {
     "id": "legacy-r10",
@@ -438,8 +452,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r10. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r10. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Alkyne",
+    "mapTo": "Alkene"
   },
   {
     "id": "legacy-r11",
@@ -484,8 +500,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r11. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r11. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Alkyne",
+    "mapTo": "Alkene"
   },
   {
     "id": "legacy-r12",
@@ -527,7 +545,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r12. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -572,8 +590,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r13. Legacy structure-builder answer(s): CH3CHO. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r13. Legacy structure-builder answer(s): CH3CHO. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alcohol",
+    "mapTo": "Aldehyde"
   },
   {
     "id": "legacy-r13b",
@@ -616,8 +636,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r13b. Legacy structure-builder answer(s): CH3COOH. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r13b. Legacy structure-builder answer(s): CH3COOH. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Aldehyde",
+    "mapTo": "Carboxylic acid"
   },
   {
     "id": "legacy-r14",
@@ -659,8 +681,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r14. Legacy structure-builder answer(s): CH3COCH3. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r14. Legacy structure-builder answer(s): CH3COCH3. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alcohol",
+    "mapTo": "Ketone"
   },
   {
     "id": "legacy-r15",
@@ -703,8 +727,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r15. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r15. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Alcohol",
+    "mapTo": "Alkene"
   },
   {
     "id": "legacy-r16",
@@ -750,8 +776,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r16. Legacy structure-builder answer(s): CH3CH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r16. Legacy structure-builder answer(s): CH3CH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Alcohol",
+    "mapTo": "Haloalkane"
   },
   {
     "id": "legacy-r17",
@@ -793,8 +821,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r17. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r17. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Haloalkane",
+    "mapTo": "Alkene"
   },
   {
     "id": "legacy-r18",
@@ -835,8 +865,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r18. Legacy structure-builder answer(s): CH3CH2CH2OH. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r18. Legacy structure-builder answer(s): CH3CH2CH2OH. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Haloalkane",
+    "mapTo": "Alcohol"
   },
   {
     "id": "legacy-r19",
@@ -879,8 +911,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r19. Legacy structure-builder answer(s): CH3CH2NH2. Legacy structural quiz flag: true. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r19. Legacy structure-builder answer(s): CH3CH2NH2. Legacy structural quiz flag: true. This content is not chemically verified.",
+    "mapFrom": "Haloalkane",
+    "mapTo": "Amine"
   },
   {
     "id": "legacy-r20",
@@ -921,7 +955,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r20. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -963,7 +997,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r21. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -1005,7 +1039,7 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
+    "validationStatus": "Published",
     "notes": "Imported from legacy record r22. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
   },
   {
@@ -1048,8 +1082,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r23. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r23. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Carboxylic acid",
+    "mapTo": "Ester"
   },
   {
     "id": "legacy-r24",
@@ -1089,8 +1125,10 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r24. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r24. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Carboxylic acid",
+    "mapTo": "Amide"
   },
   {
     "id": "legacy-r25",
@@ -1133,7 +1171,9 @@
     ],
     "difficulty": "",
     "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
-    "validationStatus": "Needs review",
-    "notes": "Imported from legacy record r25. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+    "validationStatus": "Published",
+    "notes": "Imported from legacy record r25. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified.",
+    "mapFrom": "Ester",
+    "mapTo": "Carboxylic acid"
   }
 ]

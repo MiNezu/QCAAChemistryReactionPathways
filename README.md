@@ -31,6 +31,10 @@ The browser's `localStorage` is the sole storage for this prototype. Data is loc
 
 The record model and collection validator live in `src/model.js`; persistence is in `src/storage.js`; UI is in `src/main.js` and `src/style.css`. The versioned JSON export shape is `{ "version": 1, "records": [] }`.
 
+## Reaction practice
+
+Practice questions are generated at runtime from Published reaction records and are filtered by stored syllabus tags and difficulty. Question styles include stored reactants, products, reagents, conditions, reaction type, and explicitly entered map transformations. The generator does not invent chemistry or create distractor facts. Matching uses stored accepted answers for condition questions and exact normalized representations for other question styles. Each session avoids repeating a record until the matching pool is exhausted.
+
 ## Limitations / next steps
 
 No backend, authentication, sync, structural chemistry renderer, molecular correctness checker, question generator, pathway solver, or student workflows are implemented. Automated validation checks data shape only; it cannot establish chemical correctness. Records should be independently checked by a qualified human before publication or educational use.
