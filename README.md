@@ -4,6 +4,10 @@ A lightweight, browser-based foundation for an organic chemistry learning tool. 
 
 ## Run locally
 
+## GitHub Pages deployment
+
+This is a static Vite app and can be hosted on GitHub Pages. Build assets use relative paths so project-site URLs work. Enable Pages for the repository and deploy the generated `dist` folder, or configure a GitHub Actions workflow to run `npm ci`, `npm run build`, and upload `dist` as the Pages artifact. The optional `npm run deploy` command publishes `dist` via the `gh-pages` package after GitHub Pages and repository permissions are configured.
+
 Requires Node.js 18+.
 
 ```sh

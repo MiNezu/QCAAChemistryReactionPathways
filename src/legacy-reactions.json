@@ -1,0 +1,1139 @@
+[
+  {
+    "id": "legacy-r1",
+    "name": "Combustion",
+    "description": "Complete combustion of any alkane or alcohol gives CO2 + H2O and releases heat. Limited O2 gives incomplete combustion (CO and/or C).",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alkane"
+    ],
+    "reactants": [
+      "propane (C3H8)"
+    ],
+    "products": [
+      "carbon dioxide + water (3CO2 + 4H2O)"
+    ],
+    "reagents": [
+      "O2 (excess), ignite"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "spark / flame"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "o2",
+      "oxygen",
+      "ignite",
+      "spark",
+      "excess oxygen",
+      "flame"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r1. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r2",
+    "name": "Substitution with halogen",
+    "description": "UV light breaks the Cl–Cl bond. Excess halogen drives further substitution stages (CH2Cl2, CHCl3, CCl4).",
+    "reactionType": "Substitution",
+    "functionalGroups": [
+      "Alkane"
+    ],
+    "reactants": [
+      "methane (CH4)"
+    ],
+    "products": [
+      "chloromethane + hydrogen chloride (CH3Cl + HCl)"
+    ],
+    "reagents": [
+      "Cl2 (or Br2)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "UV light"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "uv",
+      "uv light",
+      "ultraviolet",
+      "cl2",
+      "br2",
+      "halogen"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r2. Legacy structure-builder answer(s): CH3Cl, CH3Br. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r3",
+    "name": "Combustion",
+    "description": "Same pattern as alkane combustion.",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "ethene (C2H4)"
+    ],
+    "products": [
+      "carbon dioxide + water (2CO2 + 2H2O)"
+    ],
+    "reagents": [
+      "O2 (excess), ignite"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "spark / flame"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "o2",
+      "oxygen",
+      "ignite",
+      "flame",
+      "spark"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r3. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r4",
+    "name": "Addition with H2 (reduction)",
+    "description": "Hydrogenation of the C=C bond — this is a reduction reaction.",
+    "reactionType": "Addition (reduction)",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "ethene (C2H4)"
+    ],
+    "products": [
+      "ethane (C2H6)"
+    ],
+    "reagents": [
+      "H2"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "Ni catalyst, ~180°C, 4 atm"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "ni",
+      "nickel",
+      "180",
+      "catalyst",
+      "pressure",
+      "4 atm",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r4. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r5",
+    "name": "Addition with halogen (X2)",
+    "description": "This is the standard test to distinguish alkanes from alkenes — bromine water decolourises instantly with an alkene.",
+    "reactionType": "Addition",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "ethene (C2H4)"
+    ],
+    "products": [
+      "1,2-dibromoethane (C2H4Br2)"
+    ],
+    "reagents": [
+      "Br2 (bromine water)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "room temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "br2",
+      "bromine",
+      "room temp",
+      "no catalyst needed",
+      "x2"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r5. Legacy structure-builder answer(s): CH2BrCH2Br, BrCH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r6",
+    "name": "Addition with HX (Markovnikov)",
+    "description": "Markovnikov's rule: H adds to the carbon that already has more H atoms, so the halogen ends up on the more substituted carbon.",
+    "reactionType": "Addition",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "propene (C3H6)"
+    ],
+    "products": [
+      "2-bromopropane (major product) (CH3CHBrCH3)"
+    ],
+    "reagents": [
+      "HBr"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "room temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "hbr",
+      "hcl",
+      "hx",
+      "markovnikov",
+      "room temp"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r6. Legacy structure-builder answer(s): CH3CHBrCH3. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r7",
+    "name": "Addition with water",
+    "description": "Industrial synthetic route to ethanol (catalytic hydration).",
+    "reactionType": "Addition",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "ethene (C2H4)"
+    ],
+    "products": [
+      "ethanol (C2H5OH)"
+    ],
+    "reagents": [
+      "H2O"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "H3PO4 catalyst, 300°C"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "h3po4",
+      "phosphoric acid",
+      "300",
+      "catalyst",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r7. Legacy structure-builder answer(s): CH3CH2OH, C2H5OH. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r8",
+    "name": "Addition polymerisation",
+    "description": "Many alkene monomers join through their C=C bonds to form one long-chain polymer.",
+    "reactionType": "Addition",
+    "functionalGroups": [
+      "Alkene"
+    ],
+    "reactants": [
+      "ethene (monomer) (n C2H4)"
+    ],
+    "products": [
+      "polyethene ((–CH2–CH2–)n)"
+    ],
+    "reagents": [
+      "—"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat, catalyst, pressure"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "heat",
+      "catalyst",
+      "pressure"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r8. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r9",
+    "name": "Complete reduction → alkane",
+    "description": "Both π bonds of the triple bond are broken; 2 equivalents of H2 are added.",
+    "reactionType": "Addition (reduction)",
+    "functionalGroups": [
+      "Alkyne"
+    ],
+    "reactants": [
+      "ethyne (C2H2)"
+    ],
+    "products": [
+      "ethane (C2H6)"
+    ],
+    "reagents": [
+      "2 H2"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "Ni / Pt / Pd catalyst, heat, pressure"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "ni",
+      "pt",
+      "pd",
+      "catalyst",
+      "heat",
+      "pressure"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r9. Legacy structure-builder answer(s): CH3CH3. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r10",
+    "name": "Partial reduction → cis-alkene",
+    "description": "Syn addition — both H atoms add to the same face, giving the cis isomer only. Lindlar's catalyst prevents further reduction to the alkane.",
+    "reactionType": "Addition (reduction)",
+    "functionalGroups": [
+      "Alkyne"
+    ],
+    "reactants": [
+      "but-2-yne (CH3C≡CCH3)"
+    ],
+    "products": [
+      "cis-but-2-ene (cis-CH3CH=CHCH3)"
+    ],
+    "reagents": [
+      "H2"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "Lindlar's catalyst (Pd/CaCO3, Pb-poisoned)"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "lindlar",
+      "lindlar's catalyst",
+      "pd/caco3",
+      "syn addition"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r10. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r11",
+    "name": "Partial reduction → trans-alkene",
+    "description": "Anti addition via a radical (dissolving-metal) mechanism gives the trans isomer.",
+    "reactionType": "Addition (reduction)",
+    "functionalGroups": [
+      "Alkyne"
+    ],
+    "reactants": [
+      "but-2-yne (CH3C≡CCH3)"
+    ],
+    "products": [
+      "trans-but-2-ene (trans-CH3CH=CHCH3)"
+    ],
+    "reagents": [
+      "—"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "Na or Li dissolved in liquid NH3, low temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "na/nh3",
+      "na",
+      "li",
+      "liquid ammonia",
+      "sodium",
+      "lithium",
+      "anti addition"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r11. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r12",
+    "name": "Combustion",
+    "description": "Same pattern as alkane/alkene combustion.",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "ethanol (C2H5OH)"
+    ],
+    "products": [
+      "carbon dioxide + water (2CO2 + 3H2O)"
+    ],
+    "reagents": [
+      "O2 (excess), ignite"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "spark / flame"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "o2",
+      "oxygen",
+      "ignite",
+      "flame"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r12. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r13",
+    "name": "Oxidation of primary alcohol",
+    "description": "Primary alcohols oxidise in two stages: mild conditions (distil as formed) stop at the aldehyde; excess oxidant + reflux drives it on to the carboxylic acid.",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "ethanol (1°) (CH3CH2OH)"
+    ],
+    "products": [
+      "ethanal (CH3CHO)"
+    ],
+    "reagents": [
+      "acidified MnO4⁻ or Cr2O72⁻ (mild, distil off product)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat, distillation"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "acidified mno4",
+      "acidified permanganate",
+      "acidified dichromate",
+      "cr2o7",
+      "heat",
+      "distil"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r13. Legacy structure-builder answer(s): CH3CHO. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r13b",
+    "name": "Full oxidation of primary alcohol",
+    "description": "Reflux keeps the volatile aldehyde in the reaction vessel so oxidation goes to completion.",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "ethanal (CH3CHO)"
+    ],
+    "products": [
+      "ethanoic acid (CH3COOH)"
+    ],
+    "reagents": [
+      "excess acidified MnO4⁻ or Cr2O72⁻"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat under reflux"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "excess",
+      "reflux",
+      "acidified mno4",
+      "acidified dichromate",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r13b. Legacy structure-builder answer(s): CH3COOH. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r14",
+    "name": "Oxidation of secondary alcohol",
+    "description": "Only one stage is possible — secondary alcohols stop at the ketone and cannot be oxidised further (no replaceable H on the carbonyl carbon).",
+    "reactionType": "Redox (oxidation)",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "propan-2-ol (2°) (CH3CH(OH)CH3)"
+    ],
+    "products": [
+      "propanone (CH3COCH3)"
+    ],
+    "reagents": [
+      "acidified MnO4⁻ or Cr2O72⁻"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "acidified mno4",
+      "acidified dichromate",
+      "heat",
+      "cr2o7"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r14. Legacy structure-builder answer(s): CH3COCH3. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r15",
+    "name": "Dehydration",
+    "description": "An elimination reaction — water is removed to form a C=C double bond.",
+    "reactionType": "Elimination",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "ethanol (CH3CH2OH)"
+    ],
+    "products": [
+      "ethene + water (CH2=CH2 + H2O)"
+    ],
+    "reagents": [
+      "conc. H2SO4 (or H3PO4)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "conc h2so4",
+      "sulfuric acid",
+      "h3po4",
+      "phosphoric acid",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r15. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r16",
+    "name": "Reaction with hydrohalic acid",
+    "description": "Acid protonates the –OH, turning it into a good leaving group (water); the halide ion then substitutes. Reactivity of alcohols: 3° > 2° > 1°. Reactivity of HX: HI > HBr > HCl.",
+    "reactionType": "Substitution",
+    "functionalGroups": [
+      "Alcohol"
+    ],
+    "reactants": [
+      "propan-1-ol (CH3CH2CH2OH)"
+    ],
+    "products": [
+      "1-bromopropane + water (CH3CH2CH2Br + H2O)"
+    ],
+    "reagents": [
+      "HBr (conc. HX, or NaX/H2SO4)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "hbr",
+      "hcl",
+      "hi",
+      "hx",
+      "conc",
+      "heat",
+      "nax",
+      "h2so4"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r16. Legacy structure-builder answer(s): CH3CH2CH2Br. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r17",
+    "name": "Elimination",
+    "description": "Heating with NaOH dissolved in alcohol favours elimination over substitution.",
+    "reactionType": "Elimination",
+    "functionalGroups": [
+      "Haloalkane"
+    ],
+    "reactants": [
+      "1-chloropropane (CH3CH2CH2Cl)"
+    ],
+    "products": [
+      "propene + water + NaCl (CH3CH=CH2 + H2O + NaCl)"
+    ],
+    "reagents": [
+      "NaOH (in ethanol)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "naoh",
+      "ethanol",
+      "heat",
+      "alcoholic"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r17. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r18",
+    "name": "Substitution + NaOH",
+    "description": "Aqueous NaOH (rather than alcoholic/hot) favours substitution, giving the alcohol.",
+    "reactionType": "Substitution",
+    "functionalGroups": [
+      "Haloalkane"
+    ],
+    "reactants": [
+      "1-chloropropane (CH3CH2CH2Cl)"
+    ],
+    "products": [
+      "propan-1-ol + NaCl (CH3CH2CH2OH + NaCl)"
+    ],
+    "reagents": [
+      "NaOH (aq)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "warm"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "naoh",
+      "aqueous",
+      "warm"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r18. Legacy structure-builder answer(s): CH3CH2CH2OH. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r19",
+    "name": "Substitution + NH3",
+    "description": "Ammonia acts as a nucleophile, displacing the halide.",
+    "reactionType": "Substitution",
+    "functionalGroups": [
+      "Haloalkane"
+    ],
+    "reactants": [
+      "chloroethane (CH3CH2Cl)"
+    ],
+    "products": [
+      "ethanamine + HCl (CH3CH2NH2 + HCl)"
+    ],
+    "reagents": [
+      "excess NH3"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat, sealed tube / pressure"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "nh3",
+      "ammonia",
+      "excess",
+      "heat",
+      "pressure"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r19. Legacy structure-builder answer(s): CH3CH2NH2. Legacy structural quiz flag: true. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r20",
+    "name": "Acid + base",
+    "description": "Standard acid–base neutralisation — salt + water.",
+    "reactionType": "Acid–base (neutralisation)",
+    "functionalGroups": [
+      "Carboxylic acid"
+    ],
+    "reactants": [
+      "ethanoic acid (CH3COOH)"
+    ],
+    "products": [
+      "sodium ethanoate + water (CH3COONa + H2O)"
+    ],
+    "reagents": [
+      "NaOH (aq)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "room temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "naoh",
+      "base",
+      "room temp"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r20. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r21",
+    "name": "Acid + metal",
+    "description": "Produces a salt and hydrogen gas (bubbles).",
+    "reactionType": "Redox",
+    "functionalGroups": [
+      "Carboxylic acid"
+    ],
+    "reactants": [
+      "ethanoic acid (CH3COOH)"
+    ],
+    "products": [
+      "sodium ethanoate + hydrogen gas (CH3COONa + H2)"
+    ],
+    "reagents": [
+      "Na (s)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "room temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "metal",
+      "na",
+      "room temp"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r21. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r22",
+    "name": "Acid + carbonate",
+    "description": "Effervescence (CO2 gas) is the classic test for a carboxylic acid.",
+    "reactionType": "Acid–base",
+    "functionalGroups": [
+      "Carboxylic acid"
+    ],
+    "reactants": [
+      "ethanoic acid (2CH3COOH)"
+    ],
+    "products": [
+      "sodium ethanoate + CO2 + water (2CH3COONa + CO2 + H2O)"
+    ],
+    "reagents": [
+      "Na2CO3 (s)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "room temperature"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "carbonate",
+      "na2co3",
+      "room temp"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r22. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r23",
+    "name": "Esterification",
+    "description": "Conc. sulfuric acid is both catalyst and dehydrating agent, driving the equilibrium towards the ester. This is a reversible reaction.",
+    "reactionType": "Condensation",
+    "functionalGroups": [
+      "Carboxylic acid"
+    ],
+    "reactants": [
+      "ethanoic acid + ethanol (CH3COOH + C2H5OH)"
+    ],
+    "products": [
+      "ethyl ethanoate + water (CH3COOC2H5 + H2O)"
+    ],
+    "reagents": [
+      "conc. H2SO4 (catalyst)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "required",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "conc h2so4",
+      "sulfuric acid",
+      "catalyst",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r23. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r24",
+    "name": "Acid + amine → amide",
+    "description": "Condensation reaction: the –OH of the acid and an –H of the amine are lost as water, forming the amide (–CONH–) linkage.",
+    "reactionType": "Condensation",
+    "functionalGroups": [
+      "Carboxylic acid"
+    ],
+    "reactants": [
+      "ethanoic acid + methanamine (CH3COOH + CH3NH2)"
+    ],
+    "products": [
+      "N-methylethanamide + water (CH3CONHCH3 + H2O)"
+    ],
+    "reagents": [
+      "—"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "heat",
+      "condensation"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r24. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  },
+  {
+    "id": "legacy-r25",
+    "name": "Hydrolysis",
+    "description": "The reverse of esterification. Acid hydrolysis gives the carboxylic acid; base hydrolysis (saponification) gives the carboxylate salt.",
+    "reactionType": "Hydrolysis (addition + elimination reversal)",
+    "functionalGroups": [
+      "Ester"
+    ],
+    "reactants": [
+      "methyl ethanoate (CH3COOCH3)"
+    ],
+    "products": [
+      "ethanoic acid (or its salt) + methanol (CH3COOH + CH3OH)"
+    ],
+    "reagents": [
+      "H+ (dilute H2SO4) or NaOH (aq)"
+    ],
+    "conditions": {
+      "status": "required",
+      "temperature": "",
+      "solvent": "",
+      "other": "heat under reflux"
+    },
+    "catalysts": {
+      "status": "unspecified",
+      "values": []
+    },
+    "alternativeConditionSets": [],
+    "limitations": "",
+    "acceptedAnswers": [
+      "h+",
+      "dilute h2so4",
+      "naoh",
+      "reflux",
+      "heat"
+    ],
+    "syllabusTags": [
+      "QCAA Chemistry Unit 4"
+    ],
+    "difficulty": "",
+    "source": "Imported verbatim from reaction-pathways.html; requires independent chemical verification.",
+    "validationStatus": "Needs review",
+    "notes": "Imported from legacy record r25. Legacy structure-builder answer(s): none. Legacy structural quiz flag: false. This content is not chemically verified."
+  }
+]

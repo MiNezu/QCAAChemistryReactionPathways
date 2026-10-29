@@ -1,7 +1,7 @@
 export const SCHEMA_VERSION = 1;
 export const STATUSES = ['Draft', 'Validated', 'Published', 'Needs review'];
 export const blankReaction = () => ({
-  id: crypto.randomUUID(), name: '', description: '', reactionType: '', functionalGroups: [],
+  id: crypto.randomUUID(), name: '', description: '', reactionType: '', functionalGroups: [], mapFrom: '', mapTo: '',
   reactants: [], products: [], reagents: [], conditions: { status: 'unspecified', temperature: '', solvent: '', other: '' },
   catalysts: { status: 'unspecified', values: [] }, alternativeConditionSets: [], limitations: '', acceptedAnswers: [],
   syllabusTags: [], difficulty: '', source: '', validationStatus: 'Draft', notes: ''
@@ -11,6 +11,8 @@ export function validateReaction(r) {
   if (!r || typeof r !== 'object' || Array.isArray(r)) return ['Record must be an object.'];
   if (!r.id || typeof r.id !== 'string') errors.push('A stable string ID is required.');
   if (typeof r.name !== 'string') errors.push('Name must be text.');
+  if (r.mapFrom !== undefined && typeof r.mapFrom !== 'string') errors.push('Map source must be text.');
+  if (r.mapTo !== undefined && typeof r.mapTo !== 'string') errors.push('Map target must be text.');
   if (!STATUSES.includes(r.validationStatus)) errors.push('Validation status is invalid.');
   for (const key of ['functionalGroups','reactants','products','reagents','alternativeConditionSets','acceptedAnswers','syllabusTags'])
     if (!Array.isArray(r[key])) errors.push(`${key} must be a list.`);
