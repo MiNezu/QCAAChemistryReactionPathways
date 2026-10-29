@@ -1,0 +1,207 @@
+# Project: Organic Chemistry Reaction Pathway Trainer
+
+You are working in a currently empty project directory. Build the foundation of a browser-based educational application that helps students learn, memorise and reason about organic chemistry reaction pathways.
+
+## 1. Overall vision
+
+The finished application will eventually contain three main student-facing features:
+
+1. **Reaction map:** An interactive map of organic chemistry functional groups and the reactions connecting them. Selecting a reaction reveals its reactants, products, reagents, conditions, catalysts and relevant limitations.
+2. **Reaction tests:** Questions testing recall of products, reactants, reagents, reaction types, conditions and catalysts.
+3. **Pathway builder:** Multi-step synthesis questions requiring students to construct a valid route from a starting molecule to a target molecule. Advanced questions may omit conditions or provide alternative conditions that require deduction.
+
+The application must also have an administrator interface for creating and maintaining the chemistry knowledge base. The knowledge base will eventually drive all three student-facing features.
+
+**For this initial task, prioritise the foundation and administrator interface. Do not attempt to implement the entire finished application.**
+
+## 2. Technical requirements
+
+First inspect the project directory and determine whether any existing files or configuration need to be preserved.
+
+If the directory is empty, establish a minimal, maintainable web application using:
+
+- HTML, CSS and JavaScript, using TypeScript if a lightweight build setup provides a clear benefit.
+- A suitable lightweight development server and build tool, such as Vite.
+- Modular, reusable components and clearly separated responsibilities.
+- A structured JSON-compatible data model for chemistry records.
+- Browser-local persistence for the initial prototype, with an architecture that allows the storage mechanism to be replaced later.
+
+Do not introduce a backend, user accounts, a database server or unnecessary dependencies at this stage.
+
+The application should run locally with straightforward commands documented in a README.
+
+Choose a clean, modern interface suitable for a serious chemistry study tool. Prioritise legibility, responsive layouts, intuitive navigation and good support for displaying chemical formulae and reaction schemes.
+
+## 3. Implement the initial application shell
+
+Create a working application with navigation for:
+
+- Reaction Map
+- Reaction Practice
+- Pathway Builder
+- Admin
+
+The three student-facing sections can initially be informative placeholders. They should communicate that their full functionality will be implemented later, rather than pretending to be complete.
+
+The Admin section must be functional.
+
+## 4. Build the chemistry data model
+
+Design a structured model that can represent a reaction independently of its visual presentation or the questions generated from it.
+
+At minimum, support:
+
+- A stable, unique reaction ID.
+- Reaction name and description.
+- Reactant and product specifications.
+- Functional groups and reaction type.
+- Reagents.
+- Reaction conditions, including temperature, solvent and other relevant parameters where applicable.
+- Catalysts.
+- Multiple validated condition sets when appropriate.
+- Explicitly inapplicable, optional, required and unspecified fields.
+- Substrate restrictions and reaction limitations.
+- Accepted alternative answers and equivalent representations.
+- Syllabus and difficulty tags.
+- Source, validation status and explanatory notes.
+
+Represent reactants and products in a way that can eventually support specific molecular structures, rather than storing only generic functional-group names.
+
+Conditions must be structured data rather than a single unparsed text string wherever practical. Preserve the ability to display a readable summary to students.
+
+Distinguish clearly between:
+- A field that has not been entered.
+- A field that is explicitly not applicable.
+- A field that is required for the reaction.
+- A field with multiple accepted alternatives.
+
+Do not assume that every reaction has a catalyst or that every transformation has only one valid set of conditions.
+
+Keep reaction records separate from question templates and generated questions.
+
+## 5. Implement the Admin interface
+
+Create a usable administration interface with the following features.
+
+### A. Reaction list
+
+- Display all reaction records.
+- Search by reaction name, functional group, reagent or reaction type.
+- Filter by validation status and syllabus tag.
+- Create, edit, duplicate and delete records.
+- Ask for confirmation before destructive operations.
+
+### B. Reaction editor
+
+Provide a structured form for creating and editing reactions.
+
+Group related fields into logical sections, such as:
+1. Identity and classification.
+2. Reactants and products.
+3. Reagents and conditions.
+4. Catalysts and alternative condition sets.
+5. Substrate restrictions and limitations.
+6. Accepted answers and explanations.
+7. Syllabus tags, sources and validation status.
+
+Validate required fields and data types. Show helpful errors rather than silently accepting malformed records.
+
+Allow an administrator to save incomplete records as drafts.
+
+### C. Reaction preview
+
+Display a readable reaction summary derived from the structured data, including an arrow between the reactant and product representations.
+
+Use a consistent visual convention for reagents, catalysts and conditions above or below the arrow where appropriate.
+
+Do not fabricate molecular structures from arbitrary text. If a structure cannot yet be rendered accurately, display a clear text representation instead.
+
+### D. Import and export
+
+Allow the administrator to export the chemistry knowledge base as JSON and import it again.
+
+Validate imported data before applying changes. An invalid import must not silently overwrite existing records.
+
+Support a preview of import changes and provide clear feedback on validation errors.
+
+### E. Validation and publishing
+
+Support the following record states:
+- Draft
+- Validated
+- Published
+- Needs review
+
+Implement basic automated checks, including missing required fields, invalid references, duplicate IDs and malformed alternative-condition records.
+
+A record must not become available for student question generation merely because it has been saved.
+
+Do not imply that automated structural checks establish chemical correctness. Chemical validation will initially require human review.
+
+## 6. Data integrity and storage
+
+Use a single authoritative source of reaction data.
+
+The reaction map, question generator and pathway builder must eventually consume the same reaction records rather than maintaining separate copies of the chemistry.
+
+For the initial prototype:
+
+- Persist administrator changes across browser refreshes.
+- Include a way to export a backup.
+- Handle missing or invalid stored data gracefully.
+- Avoid accidentally overwriting existing data during initialisation.
+- Include a clear way to restore the initial example data.
+- Warn the administrator before resetting data.
+
+If browser-local persistence is used, document that data is local to the current browser and is not automatically synchronised across devices.
+
+## 7. Example data
+
+Include only a small number of illustrative reaction records to demonstrate the editor and validation system.
+
+Clearly label these as examples requiring chemical verification before publication.
+
+Do not attempt to populate the entire organic chemistry syllabus yet. Do not invent alternative catalysts or reaction conditions simply to make the dataset appear comprehensive.
+
+The data model should be flexible enough to accommodate a much larger, carefully curated reaction library later.
+
+## 8. Code quality
+
+- Keep data models, persistence, validation and UI logic separated.
+- Prefer small, understandable modules over a monolithic application.
+- Use stable IDs and predictable data structures.
+- Avoid unnecessary abstractions and dependencies.
+- Handle errors explicitly.
+- Make the interface usable on desktop and mobile.
+- Provide accessible labels, keyboard navigation and clear focus states.
+- Ensure that buttons and controls perform their advertised actions.
+- Do not leave broken links, fake save operations or misleading success messages.
+
+## 9. Verification
+
+Before finishing:
+
+1. Run the application and verify that it starts successfully.
+2. Test creating, editing, duplicating and deleting a reaction.
+3. Confirm that changes persist after refreshing the page.
+4. Test exporting and importing valid JSON.
+5. Test that malformed JSON and invalid records are rejected safely.
+6. Confirm that drafts cannot accidentally be treated as published chemistry.
+7. Run any available automated checks and fix failures.
+8. Document how to run the project and explain the current limitations.
+
+## 10. Scope discipline
+
+Do not implement a full AI question generator, sophisticated molecular structure editor, student accounts or a complex synthesis solver in this initial task.
+
+Instead, build a robust foundation that makes those features possible without requiring the chemistry data model to be rewritten.
+
+When finished, summarise:
+- The architecture chosen.
+- The files created.
+- How to run the application.
+- What works now.
+- What remains to be implemented.
+- Any important design decisions or limitations.
+
+Do not yet do any building. Discuss this with me and I will greenlight it when I think it appropriate.
